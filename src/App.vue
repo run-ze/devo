@@ -45,6 +45,7 @@ import ThreeColumns from './layouts/ThreeColumns.vue';
 import TwoLeftOneRight from './layouts/TwoLeftOneRight.vue';
 import OneLeftTwoRight from './layouts/OneLeftTwoRight.vue';
 import TwoRowsTwoColumns from './layouts/TwoRowsTwoColumns.vue';
+import FourColumns from './layouts/FourColumns.vue';
 
 export default {
   name: 'app',
@@ -58,6 +59,7 @@ export default {
     TwoLeftOneRight,
     OneLeftTwoRight,
     TwoRowsTwoColumns,
+    FourColumns,
   },
   data() {
     return {

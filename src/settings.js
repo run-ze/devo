@@ -4,6 +4,7 @@ import ThreeColumns from './layouts/ThreeColumns.vue';
 import TwoLeftOneRight from './layouts/TwoLeftOneRight.vue';
 import OneLeftTwoRight from './layouts/OneLeftTwoRight.vue';
 import TwoRowsTwoColumns from './layouts/TwoRowsTwoColumns.vue';
+import FourColumns from './layouts/FourColumns.vue';
 
 const DEFAULT_NIGHTMODE_BACKGROUND = '31363e';
 
@@ -157,6 +158,10 @@ export default {
     {
       displayName: 'Four Cards',
       component: TwoRowsTwoColumns.name,
+    },
+    {
+      displayName: 'Four Columns',
+      component: FourColumns.name,
     },
   ],
 };
