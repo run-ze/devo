@@ -73,7 +73,7 @@ export default {
   width: 100%;
   display: flex;
   flex-direction: column;
-  max-height: 80vh;
+  /* max-height: 80vh; */
   border-radius: 4px;
   -webkit-border-radius: 4px;
   overflow: hidden;

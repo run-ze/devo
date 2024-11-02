@@ -160,8 +160,8 @@ body {
   padding-right: var(--half-gutter-width, 0.5rem);
   padding-left: var(--half-gutter-width, 0.5rem);
   flex-basis: 83.33333333%;
-  max-width: 83.33333333%;
-  margin-left: 8.33333333%;
+  /* max-width: 83.33333333%; */
+  /* margin-left: 8.33333333%; */
 }
 
 .flex {
@@ -202,7 +202,7 @@ body {
 
 .date-time-wrapper {
   display: flex;
-  height: 10vh;
+  height: 4vh;
   font-size: 12px;
   align-items: center;
 }
@@ -248,7 +248,7 @@ footer a:hover {
   }
 
   .cards-wrapper {
-    height: 80vh;
+    height: 92vh;
   }
 }
 
