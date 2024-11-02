@@ -80,10 +80,7 @@ export default {
       },
     },
     devto: {
-      dataUrl: () => {
-        const randomPage = Math.random().toString(36).substring(3);
-        return `https://dev.to/api/articles?page=${randomPage}`;
-      },
+      dataUrl: 'https://dev.to/api/articles?top=1',
       title: 'DEV Community',
       icon: ['fab', 'dev'],
       titleFontColor: 'ffffff',
@@ -117,7 +114,8 @@ export default {
       },
     },
     tabnews: {
-      dataUrl: 'https://www.tabnews.com.br/api/v1/contents?page=1&per_page=20&strategy=relevant',
+      dataUrl:
+        'https://www.tabnews.com.br/api/v1/contents?page=1&per_page=20&strategy=relevant',
       title: 'TabNews',
       icon: ['fa', 'folder'],
       titleFontColor: 'ffffff',
